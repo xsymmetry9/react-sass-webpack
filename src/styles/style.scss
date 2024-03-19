@@ -1,0 +1,41 @@
+$body-color: red;
+$font-color: #fff;
+$background-color: blue;
+$font-center: center;
+
+$font-size-1: .9rem;
+$font-size-2: 1.2rem;
+$font-size-3: 1.4rem;
+$font-size-4: 1.6rem;
+$font-size-5: 1.8rem;
+$font-size-6: 2rem;
+$font-size-7: 2.4rem;
+$font-size-8: 2.8rem;
+$font-size-9: 3rem;
+
+body {
+    color: $font-color;
+    background-color: $background-color;
+    text-align: $font-center;
+}
+h1{
+    font-size: $font-size-9;
+    color: white;
+}
+p{
+    font-size: $font-size-1;
+}
+
+button{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    padding: 12px 10px;
+    border: none;
+    font-size: $font-size-1;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: white;
+    color: black;
+}
