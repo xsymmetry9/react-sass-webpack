@@ -1,0 +1,11 @@
+$body-color: red;
+$font-color: #000;
+$background-color: blue;
+$font-center: center;
+
+body {
+    color: $font-color;
+    background-color: $background-color;
+    text-align: $font-center;
+
+}
